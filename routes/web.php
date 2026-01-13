@@ -26,6 +26,8 @@ Route::middleware('auth')->group(function () {
         Route::resource('categories', CategoryController::class);
         // Event Management
         Route::resource('events', EventController::class);
+        // Tiket Management 
+        Route::resource('tickets', TiketController::class);
     });
         });
 require __DIR__.'/auth.php';
