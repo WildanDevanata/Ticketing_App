@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\CategoryController;
-
+use App\Http\Controllers\Admin\EventController;
 Route::get('/', function () {
     return view('welcome');
 });
@@ -24,6 +24,8 @@ Route::middleware('auth')->group(function () {
 
         // Category Management
         Route::resource('categories', CategoryController::class);
+        // Event Management
+        Route::resource('events', EventController::class);
     });
         });
 require __DIR__.'/auth.php';
