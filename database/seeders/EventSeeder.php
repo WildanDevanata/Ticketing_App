@@ -26,7 +26,7 @@ class EventSeeder extends Seeder
                 'tanggal_waktu' => '2024-09-10 10:00:00',
                 'lokasi' => 'Galeri Seni Kota',
                 'kategori_id' => 2,
-                'gambar' => 'events/pameran_seni.jpg',
+                'gambar' => 'events/pameran_seni.jpeg',
             ],
             [
                 'user_id' => 1,
