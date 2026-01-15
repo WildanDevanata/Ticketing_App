@@ -29,7 +29,7 @@ Pastikan environment kamu sudah memenuhi kebutuhan berikut:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone <url-repository>
+git clone <https://github.com/WildanDevanata/Ticketing_App.git>
 cd ticketing_app
 ```
 
