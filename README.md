@@ -8,7 +8,9 @@ Berikut adalah contoh langkah dan deskripsi untuk menjalankan project Ticketing 
 Nama: **Wildan Devanata Rizkyvianto**  
 NIM: **A11.2022.14593**  
 Kelas: **BK-WEBDEV SIANG**
-Aplikasi **Ticketing App** berbasis Laravel untuk mengelola event, kategori, tiket, dan transaksi pemesanan. Project ini menggunakan **Laravel Breeze**, **DaisyUI**, dan **Tailwind CSS**.
+Aplikasi **Ticketing App** 
+
+berbasis Laravel untuk mengelola event, kategori, tiket, dan transaksi pemesanan. Project ini menggunakan **Laravel Breeze**, **DaisyUI**, dan **Tailwind CSS**.
 
 ---
 
@@ -29,9 +31,8 @@ Pastikan environment kamu sudah memenuhi kebutuhan berikut:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone <https://github.com/WildanDevanata/Ticketing_App.git>
-cd ticketing_app
-```
+   git clone https://github.com/WildanDevanata/Ticketing_App
+   ```
 
 ---
 
@@ -52,6 +53,9 @@ cp .env.example .env
 Lalu sesuaikan konfigurasi database di file `.env`:
 
 ```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
 DB_DATABASE=ticketing_app
 DB_USERNAME=root
 DB_PASSWORD=
