@@ -5,6 +5,7 @@ use App\Models\Event;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Kategori;
+use Illuminate\Support\Str;
 
 class EventController extends Controller
 {

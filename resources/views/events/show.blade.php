@@ -17,7 +17,7 @@
           <figure>
             <img
     src="{{ $event->gambar
-        ? asset('assets/images/' . $event->gambar)
+        ? asset('images/events/' . $event->gambar)
         : asset('assets/images/placeholder.jpg')
     }}"
     alt="{{ $event->judul }}"
